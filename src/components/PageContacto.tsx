@@ -27,7 +27,7 @@ const PageContacto: React.FC = () => {
                     <form id={hashSeguridad} >
                         {form.map((input, index) => (
 
-                            <div className="form-group " key={index}  data-hash={hashSeguridad}>
+                            <div className="form-group " key={hashSeguridad} >
                                 <label >{input.field}</label>
                                 <input
                                     className="form-control"

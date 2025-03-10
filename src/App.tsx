@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
 import PageHome from './components/PageHome'
 import PageContacto from './components/PageContacto'
+import PageContactoPRISA from './components/PageContactoPRISA'
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <div className="content p-3">
             <Routes>
               <Route path="/" element={<PageHome />} />
-              <Route path="/contacto" element={<PageContacto />} />
+              <Route path="/contacto" element={<PageContactoPRISA />} />
             </Routes>
           </div>
         </div>
